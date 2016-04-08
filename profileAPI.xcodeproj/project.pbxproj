@@ -14,6 +14,8 @@
 		702E56981CB8267F0065EA9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702E56961CB8267F0065EA9B /* LaunchScreen.storyboard */; };
 		702E56A31CB826800065EA9B /* profileAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E56A21CB826800065EA9B /* profileAPITests.swift */; };
 		702E56AE1CB826810065EA9B /* profileAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E56AD1CB826810065EA9B /* profileAPIUITests.swift */; };
+		702E56BC1CB83FA80065EA9B /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E56BB1CB83FA80065EA9B /* IndexViewController.swift */; };
+		702E56BE1CB84B7B0065EA9B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E56BD1CB84B7B0065EA9B /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		702E56A91CB826810065EA9B /* profileAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = profileAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		702E56AD1CB826810065EA9B /* profileAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileAPIUITests.swift; sourceTree = "<group>"; };
 		702E56AF1CB826810065EA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702E56BB1CB83FA80065EA9B /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		702E56BD1CB84B7B0065EA9B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				702E568D1CB8267F0065EA9B /* AppDelegate.swift */,
 				702E568F1CB8267F0065EA9B /* ViewController.swift */,
 				702E56911CB8267F0065EA9B /* Main.storyboard */,
+				702E56BD1CB84B7B0065EA9B /* ProfileViewController.swift */,
+				702E56BB1CB83FA80065EA9B /* IndexViewController.swift */,
 				702E56941CB8267F0065EA9B /* Assets.xcassets */,
 				702E56961CB8267F0065EA9B /* LaunchScreen.storyboard */,
 				702E56991CB8267F0065EA9B /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				702E56901CB8267F0065EA9B /* ViewController.swift in Sources */,
 				702E568E1CB8267F0065EA9B /* AppDelegate.swift in Sources */,
+				702E56BE1CB84B7B0065EA9B /* ProfileViewController.swift in Sources */,
+				702E56BC1CB83FA80065EA9B /* IndexViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				702E56B41CB826810065EA9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		702E56B51CB826810065EA9B /* Build configuration list for PBXNativeTarget "profileAPITests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				702E56B71CB826810065EA9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		702E56B81CB826810065EA9B /* Build configuration list for PBXNativeTarget "profileAPIUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				702E56BA1CB826810065EA9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
